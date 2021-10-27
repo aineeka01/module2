@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My favorite Products</title>
+<style>
+
+/********** Base styles **********/
+* {
+   box sizing: border-box;
+}
+h1 {
+   margin-bottom: 20px;
+
+}
+
+p{
+   border: 2px solid gray;
+   background-color: #FFE4C4;
+   width: 90%;
+   height: 170px;
+   margin-right: auto;
+   margin-left: auto;
+   font-family: monospace;
+   color: olive;
+}
+
+/* Simple Responsive Framework. */
+.row {
+   width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   .col-lg-1, .col-lg-2, .col-lg-3 {
+      float: left;
+      border: 1px solid green;
+   }
+   .col-lg-1 {
+      width: 15%;
+   }
+   .col-lg-2 {
+      width: 16.66%;
+   }
+   .col-lg-3 {
+      width: 25%;
+   }
+   
+   }
+   
+}
+
+
+@media (min-width: 950px) and (max-width: 1199px) {
+   .col-md-1, .col-md-2, .col-md-3 {
+      float: left;
+      border: 1px solid green;
+   } 
+   .col-md-1 {
+      width: 15%;
+   }
+   .col-md-2 {
+      width: 16.66%;
+   }
+   .col-md-3 {
+      width: 25%;
+   }
+   
+   }
+   
+}
+
+</style>
+</head>
+<body>
+   <body style="background-color:powderblue;">
+<h1 align="center">My favorite Products</h1>
+
+<div class="row">
+   <div class="col-lg-3 col-md-6"><p>COSRX Low pH Good Morning Gel Cleanser is ideal for cleansing facial skin in the morning: it perfectly removes excess sebum and dead skin cells, leaving you feeling clean, hydrated and comfortable all day long. Cleans gently, does not provoke dehydration, flaking, irritation, feeling of tightness.</p>
+   <style>
+   .fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+  </style>
+   <p class="fig"><img src="cosrx.jpg" 
+   width="120" height="170" alt="COSRX Low pH Good Morning Gel Cleanser"></p>
+   </div>
+
+   <div class="col-lg-3 col-md-6"><p>COSRX Two In One Poreless Power Liquid essence with salicylic acid, natural extracts of white willow bark and peppermint. The product effectively cleanses and tightens pores, evens out skin relief, controls skin production and gives a very pleasant and comfortable cooling effect. The product is excellent for combination, oily and problem skin with enlarged pores</p>
+   
+   <style>
+   .fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+  </style>
+   <p class="fig"><img src="pore.jpg" 
+   width="120" height="170" alt="COSRX Low pH Good Morning Gel Cleanser"></p>
+   </div>
+
+   <div class="col-lg-3 col-md-6"><p>Some By Mi Propolis B5 Glow Barrier Calming Serum has powerful anti-inflammatory, antibacterial and antioxidant properties. Visibly evens out skin tone and fills with a healthy, even radiance. Increases the firmness and elasticity of the skin, helps to retain moisture and nourishes.</p>
+   <style>
+   .fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+  </style>
+   <p class="fig"><img src="prop.jpg" 
+   width="120" height="170" alt="COSRX Low pH Good Morning Gel Cleanser"></p>
+   </div>
+   </div>
+
+
+</div>
+
+
+</body>
+</html>
